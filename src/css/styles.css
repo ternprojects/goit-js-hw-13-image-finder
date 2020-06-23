@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url('../images/bg-pattern.png');
+  font-family: sans-serif;
+}
+
+.search-form {
+  display: flex;
+  justify-content: leftr;
+}
+
+.gallery {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+}
+
+.stats-item:not(:last-of-type) {
+  margin-right: 45px;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+}
+
+.invisible {
+  display: none;
+}
